@@ -1,0 +1,5 @@
+---
+- firewalld:
+  - service: http
+  - permanent: yes
+  - state: enabled

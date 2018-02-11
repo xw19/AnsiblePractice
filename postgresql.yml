@@ -1,0 +1,7 @@
+---
+- hosts: dbservers
+  remote_user: deploy
+  roles:
+    - role: geerlingguy.postgresql
+      become: yes
+
